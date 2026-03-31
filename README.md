@@ -39,3 +39,26 @@ CUDA, Image Resize, GPU Programming, Geometric Transform, C++, OpenCV
 ## Author
 
 Harry12345123
+
+## Requirements
+
+- CUDA Toolkit
+- OpenCV
+- CMake
+- C++17 compatible compiler
+
+## Build
+
+```bash
+mkdir build
+cd build
+cmake ..
+make -j
+
+Run
+./cuda_image_resize input.jpg
+
+Notes
+Make sure input.jpg exists in the project root directory.
+You can replace the input file with your own image.
+The executable name depends on your CMake project configuration.
